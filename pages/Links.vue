@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-8 items-start">
     <h1 class="text-3xl">Link Components</h1>
-    <BaseLinkButton link-type="primary" :link-icon="true"
+    <BaseLinkButton link-type="normal-black" :link-icon="true"
       >Mehr Erfahren</BaseLinkButton
     >
 

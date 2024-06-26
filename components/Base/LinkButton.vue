@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 defineProps<{
   linkType: 'primary' | 'secondary' | 'normal-red' | 'normal-black';
-  linkIcon: bool;
+  linkIcon: boolean;
 }>();
 </script>
 

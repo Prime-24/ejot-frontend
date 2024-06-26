@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-8">
-    <!-- <div>
+    <div>
       <h2 class="text-3xl mb-8">Standard Teaser</h2>
       <BaseTeaser
         background="black"
@@ -9,15 +9,15 @@
         badgeText="New post"
         :has-link="true"
       />
-    </div> -->
+    </div>
     <Teasers />
-    <!-- <div>
+    <div>
       <h2 class="text-3xl mb-8">Teaser 2</h2>
       <BaseTeaserHover type="black" />
     </div>
     <div>
       <h2 class="text-3xl mb-8">Teaser wide</h2>
       <BaseTeaserWide :background-img="true" background-color="black" />
-    </div> -->
+    </div>
   </div>
 </template>

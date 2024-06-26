@@ -34,13 +34,8 @@ defineProps<{
 </template>
 
 <style>
-/* This is a single-line comment 
 .ej-teaser {
-  @apply grid gap-0 col-span-2 row-span-1 grid-rows-subgrid grid-cols-subgrid md:grid-rows-subgrid md:row-span-2 md:col-span-1;
-}
-*/
-.ej-teaser {
-  @apply grid gap-0 col-span-1 row-span-2 grid-rows-subgrid grid-cols-subgrid;
+  @apply grid gap-0 col-span-1 row-span-2 grid-rows-subgrid;
 }
 .ej-teaser__img {
   @apply w-full h-full object-cover;
